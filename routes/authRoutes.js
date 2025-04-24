@@ -7,7 +7,7 @@ const { oauthCallback } = require('../controllers/authController.js');
 const Student = require('../models/Student.js');
 const Teacher = require('../models/Teacher.js');
 const { getTokens } = require('../utilis/googleAuth');
-const OTP = require('../models/Otp.js');
+const OTP = require('../models/otp.js');
 const router = express.Router();
 
 // ✅ Generate and Send OTP Route

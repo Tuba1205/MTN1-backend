@@ -31,7 +31,7 @@ connectDB();
 app.use(express.json());
 app.use(
     cors({
-        origin: "http://localhost:5173", // Allow frontend
+        origin: "https://mtn-1-frontend.vercel.app", // Allow frontend
         credentials: true, // Allow cookies/auth headers
         methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
